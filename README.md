@@ -1,6 +1,6 @@
 # Veeva Preparation
 
-Focused Java and SQL solutions for the Veeva Systems Round 1 questions collected on 20 August 2026.
+Focused Java and SQL solutions for the Veeva Systems Round 1 questions collected during Day 1 and Day 2 preparation.
 
 ## Structure
 
