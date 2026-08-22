@@ -81,3 +81,10 @@ SELECT DATE_FORMAT(order_date, '%Y-%m') AS order_month,
 FROM Orders
 GROUP BY DATE_FORMAT(order_date, '%Y-%m')
 ORDER BY order_month;
+
+-- 11. Total orders for each month
+SELECT DATE_FORMAT(order_date, '%Y-%m') AS order_month,
+       COUNT(*) AS total_orders
+FROM Orders
+GROUP BY DATE_FORMAT(order_date, '%Y-%m')
+ORDER BY order_month;
