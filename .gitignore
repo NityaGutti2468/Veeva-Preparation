@@ -1,10 +1,11 @@
-# Operating system files
 .DS_Store
 Thumbs.db
-
-# Editor settings
 .vscode/
 .idea/
-
-# Temporary working files
 tmp/
+
+# Older local preparation material not included in this focused repository
+Veeva_*.md
+Veeva_*.pdf
+tools/
+yesterday-questions/

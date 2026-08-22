@@ -1,19 +1,11 @@
 # Veeva Preparation
 
-Preparation material for the Veeva Systems placement process, with emphasis on Round 1.
+Focused Java and SQL solutions for the Veeva Systems Round 1 questions collected on 20 August 2026.
 
-## Round 1 focus
+## Structure
 
-- Java coding: arrays, strings, hashing, linked lists, trees, graphs, and OOP design.
-- SQL: aggregation, joins, subqueries, date queries, ranking, and window functions.
-- Communication: email writing, verbal questions, listening, and recording activities.
+- `dsa/` — Java solutions for algorithm and data-structure questions.
+- `oop/` — Java implementations of object-oriented design questions.
+- `sql/` — SQL queries with table assumptions included as comments.
 
-## Current material
-
-- `Veeva_*`: revision notes, previous questions, SQL exercises, and Java coding practice.
-- `yesterday-questions/`: images of questions collected from the previous test.
-- `Veeva_Todays_Questions_Only.*`: today’s SQL and OOP question set.
-
-## Practice rule
-
-For each question, first write the solution independently. Then compare it with the notes, identify the concept used, and retry it without looking at the answer.
+Each solution is kept in its own file so it can be read, compiled, and practised independently.
