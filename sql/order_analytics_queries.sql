@@ -64,3 +64,20 @@ SELECT o.ord_id, o.order_date, o.order_amount, c.name AS customer_name
 FROM CustomerOrders o
 JOIN Customer c ON c.cust_id = o.cust_id
 WHERE o.order_date = '2023-07-04';
+
+
+--Orders(id, order_date, order_amount)
+
+-- 9. Total order amount for every day
+SELECT order_date, SUM(order_amount) AS total_order_amount
+FROM Orders
+GROUP BY order_date
+ORDER BY order_date;
+
+
+-- 10. Total order amount for each month
+SELECT DATE_FORMAT(order_date, '%Y-%m') AS order_month,
+       SUM(order_amount) AS total_order_amount
+FROM Orders
+GROUP BY DATE_FORMAT(order_date, '%Y-%m')
+ORDER BY order_month;
