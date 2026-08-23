@@ -1,6 +1,6 @@
 # Veeva Preparation
 
-Focused Java and SQL solutions for the Veeva Systems Round 1 questions collected during Day 1 and Day 2 preparation.
+Focused Java and SQL solutions for the Veeva Systems Round 1 questions collected during Day 1 and Day 2 preparation. Set 2 includes string parsing, closest-number logic, OOP collections, and SQL window functions.
 
 ## Structure
 
